@@ -20,7 +20,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         if(Time.time > timer)
         {
+            Debug.Log("Index number is " + animSprites.Length);
             sr.sprite = animSprites[state];
+            Debug.Log("Index is " + state);
             state++;
 
             if (state == animSprites.Length)

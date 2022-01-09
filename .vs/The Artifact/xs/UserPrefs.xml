@@ -1,16 +1,23 @@
 ﻿<Properties StartupConfiguration="{3AF44048-36AD-AC10-87C2-9445A3296304}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/PlayerAnimation.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="31" Column="22" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAnimation.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/Bush Scripts/BushVisual.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAnimation.cs" Line="24" Column="34" />
+      <File FileName="Assets/Scripts/Bush Scripts/BushFruits.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerBackpack.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerHarvest.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="The Artifact" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Player Scripts" expanded="True" />
+                <Node name="Bush Scripts" expanded="True" />
+                <Node name="Player Scripts" expanded="True">
+                  <Node name="PlayerMovement.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -20,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e1565b80-263a-442a-8b2c-f03802ff336a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="834aa0dc-1c10-4a8f-be10-49f83661d7d9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
