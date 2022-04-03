@@ -1,15 +1,25 @@
 ﻿<Properties StartupConfiguration="{3AF44048-36AD-AC10-87C2-9445A3296304}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Scripts/WolfAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gameplay Helpers/GameOverUIController.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerHarvest.cs" Line="56" Column="10" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" />
       <File FileName="Assets/Scripts/Bush Scripts/BushVisual.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerAnimation.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/Bush Scripts/BushFruits.cs" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerBackpack.cs" />
+      <File FileName="Assets/Scripts/Bush Scripts/BushFruits.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerBackpack.cs" Line="18" Column="32" />
       <File FileName="Assets/Scripts/Artifact.cs" Line="73" Column="51" />
-      <File FileName="Assets/Scripts/Enemy Scripts/WolfAnim.cs" Line="36" Column="1" />
-      <File FileName="Assets/Scripts/Enemy Scripts/WolfAI.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/WolfAnim.cs" Line="44" Column="10" />
+      <File FileName="Assets/Scripts/Enemy Scripts/WolfAI.cs" Line="99" Column="35" />
+      <File FileName="Assets/Scripts/Enemy Scripts/Enemy Spawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemySpawner.cs" Line="39" Column="6" />
+      <File FileName="Assets/Scripts/Player Scripts/SlashAnim.cs" Line="52" Column="30" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerSlash.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/Gameplay Helpers/CameraFollow.cs" Line="39" Column="30" />
+      <File FileName="Assets/Scripts/Enemy Scripts/WolfHealth.cs" Line="26" Column="33" />
+      <File FileName="Assets/Scripts/Gameplay Helpers/TimeManager.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/Gameplay Helpers/ArtifactHealthUI.cs" Line="30" Column="54" />
+      <File FileName="Assets/Scripts/MainMenuController.cs" Line="17" Column="6" />
+      <File FileName="Assets/Scripts/Gameplay Helpers/GameOverUIController.cs" Line="4" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +28,9 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Bush Scripts" expanded="True" />
-                <Node name="Enemy Scripts" expanded="True">
-                  <Node name="WolfAI.cs" selected="True" />
+                <Node name="Enemy Scripts" expanded="True" />
+                <Node name="Gameplay Helpers" expanded="True">
+                  <Node name="GameOverUIController.cs" selected="True" />
                 </Node>
                 <Node name="Player Scripts" expanded="True" />
               </Node>

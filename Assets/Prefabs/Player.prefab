@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 4992586572521201599}
   - component: {fileID: 6484820839909478537}
   - component: {fileID: 1234784394}
+  - component: {fileID: 1050805728375360921}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 411737353
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3245a6694aa805e4dbe1d4f051f2880a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -310,3 +311,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxNumberOfFruitsToStore: 50
   currentNumberOfStoredFruits: 0
+--- !u!114 &1050805728375360921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4992586572521201575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ebfa4a6ca6e436fbfdb24d9288a62e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slashPrefab: {fileID: 3106765868149339515, guid: 1e189e3bea6ee4e88b80befb9697fc71, type: 3}
+  coolddown: 0.3

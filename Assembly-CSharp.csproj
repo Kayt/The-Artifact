@@ -59,9 +59,18 @@
     <Compile Include="Assets/Scripts/Bush Scripts/BushVisual.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/PlayerBackpack.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/PlayerAnimation.cs" />
-    <Compile Include="Assets/Scripts/Artifact.cs" />
+    <Compile Include="Assets/Scripts/Gameplay Helpers/Artifact.cs" />
     <Compile Include="Assets/Scripts/Enemy Scripts/WolfAnim.cs" />
     <Compile Include="Assets/Scripts/Enemy Scripts/WolfAI.cs" />
+    <Compile Include="Assets/Scripts/Enemy Scripts/EnemySpawner.cs" />
+    <Compile Include="Assets/Scripts/Player Scripts/SlashAnim.cs" />
+    <Compile Include="Assets/Scripts/Player Scripts/PlayerSlash.cs" />
+    <Compile Include="Assets/Scripts/Gameplay Helpers/CameraFollow.cs" />
+    <Compile Include="Assets/Scripts/Enemy Scripts/WolfHealth.cs" />
+    <Compile Include="Assets/Scripts/Gameplay Helpers/TimeManager.cs" />
+    <Compile Include="Assets/Scripts/Gameplay Helpers/ArtifactHealthUI.cs" />
+    <Compile Include="Assets/Scripts/MainMenuController.cs" />
+    <Compile Include="Assets/Scripts/Gameplay Helpers/GameOverUIController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
