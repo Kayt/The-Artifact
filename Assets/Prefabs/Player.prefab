@@ -16,11 +16,11 @@ GameObject:
   - component: {fileID: 4992586572521201573}
   - component: {fileID: 4992586572521201572}
   - component: {fileID: 4992586572521201599}
-  - component: {fileID: 9162076955709633656}
   - component: {fileID: 6484820839909478537}
+  - component: {fileID: 1234784394}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 411737353
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3245a6694aa805e4dbe1d4f051f2880a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -166,7 +166,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b48e85a93d28247a68c16e9eafd6fb5f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -283,20 +283,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2af2cd5ebad06904c85d5d1f2281915c, type: 3}
   - {fileID: 21300000, guid: 7b710f4cd56976f42b7276949f15510a, type: 3}
   timeThreshold: 0.1
---- !u!114 &9162076955709633656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4992586572521201575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9451e16ba97934f9bbe9a26ffc7213fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animSprites: []
-  timeThreshold: 0.1
 --- !u!114 &6484820839909478537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,3 +295,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bd3de0f705714460a0f37037fb96eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  harvestTime: 0.4
+--- !u!114 &1234784394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4992586572521201575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ece67e251566458cb528f849f49e438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxNumberOfFruitsToStore: 50
+  currentNumberOfStoredFruits: 0
